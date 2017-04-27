@@ -15,7 +15,7 @@ Prerequisites:
 
 This plugin follows the Cordova 3.0+ plugin spec, so it can be installed through the Cordova CLI in your existing Cordova project:
 ```bash
-cordova plugin add https://github.com/danwilson/google-analytics-plugin.git
+cordova plugin add https://github.com/jbailey223/google-analytics-plugin.git
 ```
 
 This plugin is also available on npm if you are using Cordova 5.0+:
@@ -28,7 +28,7 @@ cordova plugin add cordova-plugin-google-analytics
 cordova plugin add com.danielcwilson.plugins.googleanalytics
 ```
 
-*Important Note* If the latest versions (0.8.0+) of this plugin are not working for you with Android on Cordova 5.0+, please try the suggestions in [Issues 123](https://github.com/danwilson/google-analytics-plugin/issues/123#issuecomment-151145095). Google Play Services has been very confusing to integrate, but in recent months it has been simplified.  This plugin uses the new simpler way (including it as a framework instead of bundling it which can conflict with other plugins bundling it), but if you previously installed this plugin some old files might still be lingering.
+*Important Note* If the latest versions (0.8.0+) of this plugin are not working for you with Android on Cordova 5.0+, please try the suggestions in [Issues 123](https://github.com/jbailey223/google-analytics-plugin/issues/123#issuecomment-151145095). Google Play Services has been very confusing to integrate, but in recent months it has been simplified.  This plugin uses the new simpler way (including it as a framework instead of bundling it which can conflict with other plugins bundling it), but if you previously installed this plugin some old files might still be lingering.
 
 The plugin.xml file will add the Google Analytics SDK files for Android, iOS, browser (PWA) and/or Windows Phone 8.  Follow [Google's steps](#sdk-files) if you need to update these later.  Also make sure to review the Google Analytics [terms](http://www.google.com/analytics/terms/us.html) and [SDK Policy](https://developers.google.com/analytics/devguides/collection/protocol/policy)
 
